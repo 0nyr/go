@@ -15,6 +15,7 @@
 ## TODO
 
 * [ ] **TODO (2020-11-22) :** Finish the [Go tour tutorial](https://golang.org/doc/tutorial/create-module).
+* [ ] (2022/11/20): Finish [A tour of Go | Control Flow](https://go.dev/tour/flowcontrol/1)
 
 ## Commands
 
