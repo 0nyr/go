@@ -4,26 +4,27 @@
 
 [download go](https://golang.org/dl/)
 
-[go std library](https://golang.org/pkg/) 
-
+[go std library](https://golang.org/pkg/)
 
 ### Useful tuto
 
 [Get started with Go](https://golang.org/doc/tutorial/getting-started)
 
-[A tour of Go](https://tour.golang.org/list) (nice)
+[A tour of Go](https://tour.golang.org/list) ⭐️ (nice)
 
+## TODO
 
-### TODO
+* [ ] **TODO (2020-11-22) :** Finish the [Go tour tutorial](https://golang.org/doc/tutorial/create-module).
 
-* [ ]**TODO (2020-11-22) :** Finish the[Go tour tutorial](https://golang.org/doc/tutorial/create-module).
+## Commands
 
-### Commands
+`go run [FILE].go`: run the specified program. Go build commands are designed to locate the modules required for packages you import.
 
-* `go run [FILE].go` : run the specified program. Go build commands are designed to locate the modules required for packages you import.
-* `go help` : provides short essentials info about go.
-* `go mod init [NAME]` : inits a go module with provided`[NAME]`.
+`go help`: provides short essentials info about go.
 
+`go mod init [NAME]`: inits a go module with provided `[NAME]`.
+
+`go mod tidy`: update go imported modules.
 
 ### Notes
 
@@ -45,3 +46,7 @@ go: downloading golang.org/x/text v0.0.0-20170915032832-14c0d48ead0c
 Hello, World!
 Don't communicate by sharing memory, share memory by communicating.
 ```
+
+### Exported Packages
+
+> In Go, a name is exported IF IT BEGINS WITH A CAPITAL LETTER!!!
